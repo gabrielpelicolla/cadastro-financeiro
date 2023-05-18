@@ -2,8 +2,8 @@
 let transacoes= {}
 
 function criarUsuario() {
-    let nome=  prompt("Digite seu nome completo")
-    let email= prompt("Digite seu e-mail")
+    let nome=  prompt("Digite neste campo seu nome completo")
+    let email= prompt("Digite neste campo seu e-mail")
     let conta= Math.round((Math.random()*10000)+1000)
     let senha= prompt(`Sua conta é #${conta}. Insira uma senha`)
     let usuario= {
